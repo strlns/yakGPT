@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/.yarn
 
 # testing
 /coverage
@@ -19,14 +20,17 @@
 .DS_Store
 *.pem
 
+# .nvmrc, might be used to run yarn via nvm
+/.nvmrc
+
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# local env files
-.env*.local
+# env files
+.env*
 
 # vercel
 .vercel
